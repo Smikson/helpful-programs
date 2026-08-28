@@ -1,0 +1,9 @@
+This program helps generate a randomized Archipelago setup for StarCraft II that uses 1 (or a few in edge cases) unit, exclude no-build missions and any unit-specific upgrades that are not relevant for the selected unit.
+
+Archipelago version: 0.6.6
+
+The program contains configurations for each selectable unit for each race.
+First, a random playable race is selected: Terrain, Zerg, or Protoss.
+Then, a random configured unit from that race is selected.
+Finally, the appropriate race-specific template file (Based on the Archipelago yaml setup) is read in and iterated through to create the output YAML file as specified by the selected unit's configuration settings in the code.
+The output YAML file can have its filename edited, along with the desired name for the player slot, and can be used for fun randomized Archipelago games (estimated game completion time: 2 hours - templates can be edited for different results).
