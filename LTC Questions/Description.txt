@@ -1,0 +1,5 @@
+This program is used to allow easier question creation for the LTC question set PDF that would create unknown characters and weird spacing when copied and pasted into Word.
+
+The program reads in a file that assumes to contain copy-pasted text from the LTC question set PDF, and it outputs a text file with the unknown characters removed and updated spacing/numbering.
+
+The resulting output text file can have its contents copy-pasted into Word, and the desired format is achieved by simply selecting all and clicking the bullet in Word.
